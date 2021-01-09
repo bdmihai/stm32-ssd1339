@@ -92,9 +92,9 @@
 
 // display resolution
 #define SSD1339_MAX_COLS                            132
-#define SSD1339_MAX_RWOS                            133
+#define SSD1339_MAX_ROWS                            133
 #define SSD1339_128_COLS                            128
-#define SSD1339_128_RWOS                            128
+#define SSD1339_128_ROWS                            128
 
 // standard RGB15 colors
 #define SSD1339_RGB(R,G,B)                          ((((uint16_t)B >> 3) << 11) + (((uint16_t)G >> 2) << 5) + ((uint16_t)R >> 3))

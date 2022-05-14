@@ -38,7 +38,7 @@ Product {
 
     Export {
         Depends { name: "stm32" }
-        stm32.includePaths: [ product.sourceDirectory ]
-        stm32.libraryPaths: [ product.destinationDirectory ]
+        stm32.includePaths: [ exportingProduct.sourceDirectory ]
+        stm32.libraryPaths: [ exportingProduct.destinationDirectory ]
     }
 }
